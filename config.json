@@ -1,92 +1,38 @@
 {
-  "settings": {
-    "title": "Web Apps Menu"
-  },
-  "menu": {
-    "main": {
-      "type": "list",
-      "title": "Главное меню",
-      "items": [
-        {
-          "title": "Веб-приложения",
-          "action": {
-            "type": "page",
-            "page": "webapps"
-          }
-        }
-      ]
+  "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+  "dictionary": "https://wals09.github.io/msx/dictionary.json",
+  "logo": "https://wals09.github.io/msx/logo/mss.png",
+  "headline": "",
+  "menu": [
+    {
+      "type": "separator"
+    },
+    {
+      "icon": "menu",
+      "label": "Youtube",
+      "data": "https://abdosh77.github.io/msx/youtube.json"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "icon": "dvr",
+      "label": "Альтернативные стартовые параметры",
+      "data": "https://wals09.github.io/msx/mooviestile/store.json"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "icon": "wallpaper",
+      "label": "Тема",
+      "data": "https://wals09.github.io/msx/tema/panel_tems.json"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "settings"
     }
-  },
-  "pages": {
-    "webapps": {
-      "type": "grid",
-      "title": "Web Applications",
-      "items": [
-        {
-          "title": "YouTube",
-          "image": "https://www.youtube.com/s/desktop/0832b7db/img/favicon_144x144.png",
-          "action": {
-            "type": "url",
-            "url": "https://m.youtube.com/"
-          }
-        },
-        {
-          "title": "YouTube TV",
-          "image": "https://www.gstatic.com/youtube/img/tv/favicon_144.png",
-          "action": {
-            "type": "url",
-            "url": "https://youtube.com/tv"
-          }
-        },
-        {
-          "title": "Twitch",
-          "image": "https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png",
-          "action": {
-            "type": "url",
-            "url": "https://m.twitch.tv/"
-          }
-        },
-        {
-          "title": "TikTok",
-          "image": "https://s16.tiktokcdn.com/musical/resource/mtact/static/pwa/manifest-icon-144.png",
-          "action": {
-            "type": "url",
-            "url": "https://www.tiktok.com/"
-          }
-        },
-        {
-          "title": "Instagram",
-          "image": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png",
-          "action": {
-            "type": "url",
-            "url": "https://www.instagram.com/"
-          }
-        },
-        {
-          "title": "Telegram Web",
-          "image": "https://web.telegram.org/a/favicon.ico",
-          "action": {
-            "type": "url",
-            "url": "https://web.telegram.org/a/"
-          }
-        },
-        {
-          "title": "Reddit",
-          "image": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
-          "action": {
-            "type": "url",
-            "url": "https://reddit.com/"
-          }
-        },
-        {
-          "title": "X (Twitter)",
-          "image": "https://abs.twimg.com/responsive-web/client-web/icon-ios.8ea219d5.png",
-          "action": {
-            "type": "url",
-            "url": "https://x.com/"
-          }
-        }
-      ]
-    }
-  }
+  ]
 }
