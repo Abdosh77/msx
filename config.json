@@ -1,9 +1,24 @@
 {
   "settings": {
-    "title": "Web Apps"
+    "title": "Web Apps Menu"
+  },
+  "menu": {
+    "main": {
+      "type": "list",
+      "title": "Главное меню",
+      "items": [
+        {
+          "title": "Веб-приложения",
+          "action": {
+            "type": "page",
+            "page": "webapps"
+          }
+        }
+      ]
+    }
   },
   "pages": {
-    "home": {
+    "webapps": {
       "type": "grid",
       "title": "Web Applications",
       "items": [
