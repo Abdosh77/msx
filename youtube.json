@@ -2,7 +2,7 @@
    "type": "list",
    "background": "https://static.tildacdn.com/tild6632-3233-4236-a166-613266623434/wallhaven-kw7pd7.png",
    "headline": "Все",
-   "logo": "https://wals09.github.io/msx/logo/msy.png",
+   "logo": "https://wals09.github.io/msx/logon/ott-play.png",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
